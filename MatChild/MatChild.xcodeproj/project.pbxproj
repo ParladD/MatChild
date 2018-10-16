@@ -12,15 +12,12 @@
 		4D98FDCD21761A470095AF4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D98FDCB21761A470095AF4E /* Main.storyboard */; };
 		4D98FDCF21761A480095AF4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D98FDCE21761A480095AF4E /* Assets.xcassets */; };
 		4D98FDD221761A480095AF4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D98FDD021761A480095AF4E /* LaunchScreen.storyboard */; };
-		4D98FDDD21761A9C0095AF4E /* unknown_chapter.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D98FDDC21761A9C0095AF4E /* unknown_chapter.json */; };
 		4D98FDE021761AC60095AF4E /* FileServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D98FDDF21761AC60095AF4E /* FileServices.swift */; };
-		4D98FDE3217625680095AF4E /* chapter_10.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D98FDE2217625680095AF4E /* chapter_10.json */; };
-		4D98FDE521762A500095AF4E /* chapter_12.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D98FDE421762A500095AF4E /* chapter_12.json */; };
-		4D98FDE7217633740095AF4E /* chapter_13.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D98FDE6217633740095AF4E /* chapter_13.json */; };
-		4D98FDE9217633820095AF4E /* chapter_14.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D98FDE8217633820095AF4E /* chapter_14.json */; };
-		4D98FDEB21764F650095AF4E /* extra_review.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D98FDEA21764F650095AF4E /* extra_review.json */; };
+		4D98FDE3217625680095AF4E /* chapters.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D98FDE2217625680095AF4E /* chapters.json */; };
 		4D98FDED21765A6F0095AF4E /* UIColor+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D98FDEC21765A6F0095AF4E /* UIColor+extensions.swift */; };
 		4D98FDEF217660FC0095AF4E /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D98FDEE217660FC0095AF4E /* QuestionsViewController.swift */; };
+		4D98FDF221766E0B0095AF4E /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D98FDF021766E0B0095AF4E /* CellView.swift */; };
+		4D98FDF321766E0B0095AF4E /* CellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D98FDF121766E0B0095AF4E /* CellView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,15 +28,12 @@
 		4D98FDCE21761A480095AF4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D98FDD121761A480095AF4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D98FDD321761A480095AF4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4D98FDDC21761A9C0095AF4E /* unknown_chapter.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = unknown_chapter.json; sourceTree = "<group>"; };
 		4D98FDDF21761AC60095AF4E /* FileServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileServices.swift; sourceTree = "<group>"; };
-		4D98FDE2217625680095AF4E /* chapter_10.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = chapter_10.json; sourceTree = "<group>"; };
-		4D98FDE421762A500095AF4E /* chapter_12.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = chapter_12.json; sourceTree = "<group>"; };
-		4D98FDE6217633740095AF4E /* chapter_13.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = chapter_13.json; sourceTree = "<group>"; };
-		4D98FDE8217633820095AF4E /* chapter_14.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = chapter_14.json; sourceTree = "<group>"; };
-		4D98FDEA21764F650095AF4E /* extra_review.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = extra_review.json; sourceTree = "<group>"; };
+		4D98FDE2217625680095AF4E /* chapters.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = chapters.json; sourceTree = "<group>"; };
 		4D98FDEC21765A6F0095AF4E /* UIColor+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+extensions.swift"; sourceTree = "<group>"; };
 		4D98FDEE217660FC0095AF4E /* QuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
+		4D98FDF021766E0B0095AF4E /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+		4D98FDF121766E0B0095AF4E /* CellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,12 +81,9 @@
 		4D98FDD921761A640095AF4E /* model */ = {
 			isa = PBXGroup;
 			children = (
-				4D98FDDC21761A9C0095AF4E /* unknown_chapter.json */,
-				4D98FDE2217625680095AF4E /* chapter_10.json */,
-				4D98FDE421762A500095AF4E /* chapter_12.json */,
-				4D98FDE6217633740095AF4E /* chapter_13.json */,
-				4D98FDE8217633820095AF4E /* chapter_14.json */,
-				4D98FDEA21764F650095AF4E /* extra_review.json */,
+				4D98FDE2217625680095AF4E /* chapters.json */,
+				4D98FDF021766E0B0095AF4E /* CellView.swift */,
+				4D98FDF121766E0B0095AF4E /* CellView.xib */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -173,15 +164,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D98FDF321766E0B0095AF4E /* CellView.xib in Resources */,
 				4D98FDD221761A480095AF4E /* LaunchScreen.storyboard in Resources */,
 				4D98FDCF21761A480095AF4E /* Assets.xcassets in Resources */,
-				4D98FDE9217633820095AF4E /* chapter_14.json in Resources */,
-				4D98FDEB21764F650095AF4E /* extra_review.json in Resources */,
-				4D98FDE521762A500095AF4E /* chapter_12.json in Resources */,
-				4D98FDDD21761A9C0095AF4E /* unknown_chapter.json in Resources */,
-				4D98FDE3217625680095AF4E /* chapter_10.json in Resources */,
+				4D98FDE3217625680095AF4E /* chapters.json in Resources */,
 				4D98FDCD21761A470095AF4E /* Main.storyboard in Resources */,
-				4D98FDE7217633740095AF4E /* chapter_13.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +181,7 @@
 			files = (
 				4D98FDCA21761A470095AF4E /* MainController.swift in Sources */,
 				4D98FDEF217660FC0095AF4E /* QuestionsViewController.swift in Sources */,
+				4D98FDF221766E0B0095AF4E /* CellView.swift in Sources */,
 				4D98FDC821761A470095AF4E /* AppDelegate.swift in Sources */,
 				4D98FDE021761AC60095AF4E /* FileServices.swift in Sources */,
 				4D98FDED21765A6F0095AF4E /* UIColor+extensions.swift in Sources */,
